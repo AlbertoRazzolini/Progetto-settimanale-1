@@ -190,11 +190,13 @@ nav ul li a {
 }
 
 .td-elenco {
+   font-weight: bolder;
    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
    width: 38%;
 }
 
 .p-elenco {
+   font-weight: normal;
    font-style: italic;
    font-size: 0.7em
 }
