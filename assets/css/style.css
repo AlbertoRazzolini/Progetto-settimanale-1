@@ -36,6 +36,7 @@ section {
 }
 
 body h2 {
+   font-family: 'Oswald', sans-serif;
    margin: 20px;
    color: #d62c20;
 }
@@ -72,6 +73,7 @@ button:hover {
    padding-top: 0;
    font-size: x-large;
    border: 0 0 1px 0 solid gold;
+   border-bottom: 10px solid #B5F085;
 }
 
 #site-header ul  {
@@ -105,7 +107,7 @@ button:hover {
 }
 
 nav ul {
-   padding-bottom: 40px;
+   padding-bottom: 30px;
    margin-bottom: 0;
 }
 
@@ -122,6 +124,7 @@ nav ul li:hover {
 }
 
 nav ul li a {
+   text-decoration: none;
    color: antiquewhite;
 }
 
@@ -142,10 +145,12 @@ nav ul li a {
 }
 
 #presentazione::first-letter {
+   font-family: 'Oswald', sans-serif;
    font-size: 3.0em;
    font-weight: bold;
    float:left;
-   margin: 6px;
+   margin-top: -25px;
+   margin-right: 15px;
    color:#D62C20;
 }
 
@@ -158,21 +163,31 @@ nav ul li a {
 }
 
 #Chisono iframe {
+   margin-left: 31%;
    border-radius: 5px;
 }
 
 /* Section Chi Sono end */
 /* Section Competenze start */
 
-#Competenze ul li:nth-child(2) {
-   font-weight: bold;
-}
-
-#Competenze ul li:last-child {
-   background-image: linear-gradient(10deg, #db0101, transparent);
-   max-width:max-content ;
+#elenco-competenze {
+   text-align: left;
+   border: 0;
    border-radius: 5px;
    padding: 0 10px;
+}
+
+.td-elenco {
+   width:
+}
+
+.p-elenco {
+   font-size: 0.7em
+}
+
+.progbar {
+   width: 500px;
+
 }
 
 /* Section Competenze end*/
