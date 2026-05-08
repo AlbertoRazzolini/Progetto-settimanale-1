@@ -177,20 +177,26 @@ nav ul li a {
 }
 
 #elenco-competenze caption {
+   font-style: italic;
    text-align: left
 }
 
 .td-elenco {
-   width:
+   width: 38%;
 }
 
 .p-elenco {
+   font-style: italic;
    font-size: 0.7em
 }
 
-.progbar {
-   width: 500px;
 
+.td-progbar {
+   width: 60%;
+}
+
+.progbar {
+   width: 100%;
 }
 
 /* Section Competenze end*/
