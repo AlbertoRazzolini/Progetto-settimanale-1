@@ -26,9 +26,9 @@ main section {
 }
 
 main section h2::before {
-   content: ;
+   content: '\2756' ;
    margin-right: 10px;
-   color: #66D60B;
+   color: gold;
 }
 
 section {
@@ -71,6 +71,7 @@ button:hover {
    padding-bottom: 0;
    padding-top: 0;
    font-size: x-large;
+   border: 0 0 1px 0 solid gold;
 }
 
 #site-header ul  {
