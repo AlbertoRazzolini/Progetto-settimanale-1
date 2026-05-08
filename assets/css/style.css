@@ -171,17 +171,26 @@ nav ul li a {
 /* Section Competenze start */
 
 #elenco-competenze {
+   border-collapse: collapse;
    text-align: left;
    border-radius: 5px;
    padding: 0 10px;
 }
 
 #elenco-competenze caption {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
    font-style: italic;
    text-align: left
 }
 
+#elenco-competenze th { 
+   background-color: #FFCF72;
+   padding: 10px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
 .td-elenco {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
    width: 38%;
 }
 
@@ -192,6 +201,7 @@ nav ul li a {
 
 
 .td-progbar {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
    width: 60%;
 }
 
