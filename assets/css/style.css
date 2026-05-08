@@ -26,6 +26,7 @@ main section {
 }
 
 main section h2::before {
+   content: ;
    margin-right: 10px;
    color: #66D60B;
 }
