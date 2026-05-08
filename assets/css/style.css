@@ -115,16 +115,14 @@ nav ul li {
    padding: 15px;
    border: 1px solid black;
    border-radius: 5px;
-   background-image: linear-gradient(10deg, rgb(165, 240, 240), black)  ;
 }
 
 nav ul li:hover {
-   background-color: #66d60b48;   
+   background-image: linear-gradient(10deg, rgb(165, 240, 240), black);   
 }
 
 nav ul li a {
    color: antiquewhite;
-}
 
 /* Header end */
 /* Section Chi sono start */
