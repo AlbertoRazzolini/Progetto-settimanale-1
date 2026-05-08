@@ -183,6 +183,10 @@ nav ul li a {
    text-align: left
 }
 
+.td-elenco::before {
+   content: '\eb7e';
+}
+
 #elenco-competenze th { 
    background-color: #FFCF72;
    padding: 10px;
