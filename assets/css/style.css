@@ -172,9 +172,12 @@ nav ul li a {
 
 #elenco-competenze {
    text-align: left;
-   border: 0;
    border-radius: 5px;
    padding: 0 10px;
+}
+
+#elenco-competenze caption {
+   text-align: left
 }
 
 .td-elenco {
@@ -226,9 +229,7 @@ nav ul li a {
    background-color: whitesmoke;
 }
 
-tr,
-td,
-th {
+#Esperienze tr, #Esperienze td, #Esperienze th {
    border: 1px solid black;
 }
 
