@@ -103,6 +103,7 @@ button:hover {
 }
 
 #site-header iframe {
+   width: 100%;
    box-shadow: 4px 4px 6px black;
 }
 
@@ -183,9 +184,53 @@ nav ul li a {
    text-align: left
 }
 
-.td-elenco::before {
-   content: '\eb7e';
+/* Icone elenco competenze start */
+
+#elenco-competenze tr:nth-child(1) td.td-elenco::before {
+   font-family: "Material Symbols Outlined";
+   content: "\eb7e"; /* HTML */
+   font-size: 20px;
+   vertical-align: middle;
+   margin-right: 8px;
 }
+
+#elenco-competenze tbody tr:nth-child(2) td.td-elenco::before {
+   font-family: "Material Symbols Outlined";
+   content: "\eb93"; /* CSS */
+   font-size: 20px;
+   vertical-align: middle;
+   margin-right: 8px;
+}
+
+#elenco-competenze tbody tr:nth-child(3) td.td-elenco::before {
+   font-family: "Font Awesome 6 Brands";
+   content: "\f09b"; /* GITHUB */
+   font-size: 20px;
+   vertical-align: middle;
+   margin-right: 8px;
+} 
+
+#elenco-competenze tbody tr:nth-child(4) td.td-elenco::before {
+   font-family: "Material Symbols Outlined";
+   content: "\eb8e"; /* LINEA DI COMANDO */
+   font-size: 20px;
+   vertical-align: middle;
+   margin-right: 8px;
+}
+
+#elenco-competenze tbody tr:nth-child(5) td.td-elenco::before {
+   font-family: "Material Symbols Outlined";
+   content: "\f552"; /* MARKDOWN */
+   font-size: 20px;
+   vertical-align: middle;
+   margin-right: 8px;
+}
+
+td.td-elenco::before {
+   color:#2318bd
+}
+
+/* Icone elenco competenze end */
 
 #elenco-competenze th { 
    background-color: #FFCF72;
@@ -279,7 +324,9 @@ nav ul li a {
 
 /* Article Curiosità start */
 
-#curiosità-cont 
+#curiosità-cont  {
+
+}
 
 #Curiosità h4 {
    float: left;
